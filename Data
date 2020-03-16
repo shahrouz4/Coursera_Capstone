@@ -1,4 +1,17 @@
-The initial data of counties in Virginia along with their population was acquired through a .csv file from the website demographics.coopercenter.org. The initial data included population from previous years and changes in the population for each county. Since we only need the latest population size, I dropped all the columns except "county name" and population.
-The next step was to acquire the mean income for household for each county. The data was acquired through a .csv file from the website https://datausa.io/profile/geo/virginia. The initial table included different rows for different races and years. All rows except the ones with "Total Income" and "year 2018" were dropped to make the processing easier. Also, since in our original table, the name of each county does not follow by VA in the description, I had to drop the ", VA" after the name of each county to better merge the two tables. Another issue with the name was "county" and "city" were not capitalized in the second table, so the merge function was not working. I used ".title()" function to capitalize the beginning letter of each word in the name of the counties to match my first table.
-Since Virginia is a large state with many counties, I limited my focus on the top 15 counties with the largest population and dropped all the other counties.
-Based on the Geocoder, all the latitudes and longitudes were added to the table. After mapping the cities, I noticed that Geocoder mistook Chesapeake, VA for Chesapeake, MD so the coordinates for this instance had to be updated manually. After this, the data was ready for processing.
+The initial data of counties in Virginia along with their population was acquired through a .csv file from the website
+demographics.coopercenter.org. The initial data included population from previous years and changes in the population for each county. 
+Since we only need the latest population size, I dropped all the columns except "county name" and population.
+
+The next step was to acquire the mean income for household for each county. The data was acquired through a .csv file from the website 
+https://datausa.io/profile/geo/virginia. The initial table included different rows for different races and years. All rows except the ones 
+with "Total Income" and "year 2018" were dropped to make the processing easier. Also, since in our original table, the name of each county 
+does not follow by VA in the description, I had to drop the ", VA" after the name of each county to better merge the two tables. Another 
+issue with the name was "county" and "city" were not capitalized in the second table, so the merge function was not working. I used 
+".title()" function to capitalize the beginning letter of each word in the name of the counties to match my first table.
+
+Since Virginia is a large state with many counties, I limited my focus on the top 15 counties with the largest population and dropped all 
+the other counties.
+
+Based on the Geocoder, all the latitudes and longitudes were added to the table. After mapping the cities, I noticed that Geocoder mistook
+Chesapeake, VA for Chesapeake, MD so the coordinates for this instance had to be updated manually. After this, the data was ready for 
+processing.
