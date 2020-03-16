@@ -1,9 +1,5 @@
 # Coursera_Capstone
 
-With the current Coronvirus pandemic worldwide, Washington DC area, one of the most important metropolitan areas in the world
-is in danger too. With a high population density, it is important that the are is ready to fight this virus. This program 
-will get the names of major counties/cities in the DMV area from a Wikipedia page and will get the number of hospitals / 
-emergency rooms / urgent cares to determine which city is most prepared to fight this pandemic.
+A Supermarket chain is planning to expand operations in the state of Virginia. They want to start off by opening a very successful branch, therefore it is of utmost importance that they choose their initial location wisely. This script will rank the counties in Virginia based on their population, household income, and number of existing supermarkets in the region.
 
-The question answered by this program is "Which cities / counties in DMV is most equipped to test and treat patients for
-Coronavirus?"
+The question answered by this script is What are the top counties based on their population and what is the number supermarkets currently operational in these markets? Also, what is the mean annual household income for each family in these counties? By looking at these data, we can get a better picture as to where to open the first branch.
