@@ -15,3 +15,6 @@ the other counties.
 Based on the Geocoder, all the latitudes and longitudes were added to the table. After mapping the cities, I noticed that Geocoder mistook
 Chesapeake, VA for Chesapeake, MD so the coordinates for this instance had to be updated manually. After this, the data was ready for 
 processing.
+
+By using this data, we can determine which area based on the population and the number of current supermarkets is the best location for a
+new branch.
